@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 19613
+  controlID: 53804
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 19507
+  controlID: 53698
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -545,9 +545,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 975.63446, y: 487.17996, z: 6.93042}
+    m_Target: {x: 378, y: 652, z: 0}
     speed: 2
-    m_Value: {x: 975.63446, y: 487.17996, z: 6.93042}
+    m_Value: {x: 378, y: 652, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -593,13 +593,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.004190307, y: 0.0020967366, z: 0.000008666643, w: -0.999987}
+    m_Target: {x: -0.039293807, y: 0.017082842, z: -0.00067205605, w: -0.99907553}
     speed: 2
-    m_Value: {x: 0.0041903155, y: 0.0020967408, z: 0.0000086666605, w: -0.99998903}
+    m_Value: {x: -0.039294038, y: 0.017082943, z: -0.00067206, w: -0.99908143}
   m_Size:
-    m_Target: 639.8286
+    m_Target: 640.8981
     speed: 2
-    m_Value: 639.8286
+    m_Value: 640.8981
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -799,7 +799,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 19551
+  controlID: 53742
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -865,7 +865,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2471ffffec77ffff827affff92b8ffffa6b8ffff30fbffff
+      m_ExpandedIDs: b05dffff42adffff30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -960,7 +960,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/Prefabs/UI/Popup/Main
+    - Assets/@Script/Managers/Contents
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -968,17 +968,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Resources/Prefabs/UI/Popup/Main
+  - Assets/@Script/Managers/Contents
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: "C:\\Users\\MyDreamComputer\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uC720\uB2C8\uD2F0\uC5D4\uC9C4
-    \uACF5\uBD80\\Project_RE"
+  m_LastProjectPath: "C:\\Users\\MyDreamComputer\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\PROJECT_01\\Project_RE\\Project_RE"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 645c0000
-    m_LastClickedID: 23652
-    m_ExpandedIDs: 00000000565a00005e5a0000565c00005a5c00005e5c0000
+    m_SelectedIDs: 8e7f0000
+    m_LastClickedID: 32654
+    m_ExpandedIDs: 00000000385a00003a5a00003c5a00003e5a00004e5a0000505a0000385b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1006,7 +1005,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000565a0000565c00005a5c00005e5c0000
+    m_ExpandedIDs: 00000000385a00003a5a00003c5a00003e5a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1037,18 +1036,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c62300000661000094590000e4620000fe6100000a670000605a00004ed30000aa5a00003e8b00001aee00001eee000022ee0000fc8a000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: "\uBBFC\uC11D"
+      m_OriginalName: "\uBBFC\uC11D"
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 23360
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
@@ -1086,7 +1085,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 19614
+  controlID: 53805
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1106,8 +1105,8 @@ MonoBehaviour:
     y: 0
     width: 523
     height: 715
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}

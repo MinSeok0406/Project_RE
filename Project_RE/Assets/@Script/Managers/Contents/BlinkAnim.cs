@@ -21,7 +21,7 @@ public class BlinkAnim : MonoBehaviour
         {
             flashingText.text = "";
             yield return new WaitForSeconds(0.3f);
-            flashingText.text = "Press the Any Key";
+            flashingText.text = "아무 키나 눌러주세요";
             yield return new WaitForSeconds(1.0f);
         }
     }
