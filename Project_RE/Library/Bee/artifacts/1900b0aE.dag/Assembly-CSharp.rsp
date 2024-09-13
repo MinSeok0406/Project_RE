@@ -352,7 +352,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Users/MyDreamComputer/OneDrive/바탕 화면/유니티엔진 공부/2022.3.12f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Users/MyDreamComputer/OneDrive/바탕 화면/유니티엔진 공부/2022.3.12f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/@Script/Managers/Contents/BlinkAnim.cs"
 "Assets/@Script/Managers/Contents/TransparentObject.cs"
 "Assets/@Script/Managers/Core/InputManager.cs"
 "Assets/@Script/Managers/Core/Poolable.cs"
@@ -374,6 +373,7 @@
 "Assets/@Script/Utils/Extension.cs"
 "Assets/@Script/Utils/Util.cs"
 "Assets/@Script/민석/Main_Init.cs"
+"Assets/@Script/민석/TextBlink.cs"
 -langversion:9.0
 
 /deterministic

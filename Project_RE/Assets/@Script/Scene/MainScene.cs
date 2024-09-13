@@ -13,7 +13,7 @@ public class MainScene : BaseScene
 
     public override void Clear()
     {
-        throw new System.NotImplementedException();
+        
     }
 
     
