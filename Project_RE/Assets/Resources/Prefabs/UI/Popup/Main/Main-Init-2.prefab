@@ -410,7 +410,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278216703
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 0.40481356, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -912,7 +912,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1707525652687250908}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1888722744890610170, guid: de9b640c018862a4c90dd3b8cd7f8e2a, type: 3}
+        m_TargetAssemblyTypeName: MainScene, Assembly-CSharp
+        m_MethodName: inSetting
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &6027482064848617517
 Animator:
   serializedVersion: 5

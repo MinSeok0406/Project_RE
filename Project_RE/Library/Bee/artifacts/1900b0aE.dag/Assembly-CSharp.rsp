@@ -373,6 +373,7 @@
 "Assets/@Script/Utils/Extension.cs"
 "Assets/@Script/Utils/Util.cs"
 "Assets/@Script/민석/Main_Init.cs"
+"Assets/@Script/민석/Main_VideoOption.cs"
 "Assets/@Script/민석/TextBlink.cs"
 -langversion:9.0
 
