@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - MainScene
     - Minseok.Main.Main_Init
     - Minseok.Main.Main_VideoOption
+    - SetVolume
     - TextBlink
     Assembly-CSharp.dll:
     - MainScene
@@ -16,11 +17,18 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -80,9 +88,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
   - assembly: Assembly-CSharp
-    fullTypeName: MainScene
-    methodName: inSetting
-  - assembly: Assembly-CSharp
     fullTypeName: Minseok.Main.Main_VideoOption
     methodName: DropboxOptionChange
   - assembly: Assembly-CSharp
@@ -91,6 +96,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Minseok.Main.Main_VideoOption
     methodName: OkBtnClick
+  - assembly: Assembly-CSharp
+    fullTypeName: SetVolume
+    methodName: SetLevel_BGM
+  - assembly: Assembly-CSharp
+    fullTypeName: SetVolume
+    methodName: SetLevel_GameSound
+  - assembly: Assembly-CSharp
+    fullTypeName: MainScene
+    methodName: inSetting
   sceneClasses:
     Assets/Scenes/Main_Scene.unity:
     - Class: 1
@@ -110,6 +124,10 @@ ScriptsOnlyBuild:
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 84
       Script: {instanceID: 0}
@@ -167,6 +185,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6032}
     - Class: 114
       Script: {instanceID: 7068}
+    - Class: 114
+      Script: {instanceID: 32758}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -182,6 +202,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     - Class: 328
       Script: {instanceID: 0}
@@ -1088,6 +1114,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: UI_Button
+  - hash:
+      serializedVersion: 2
+      Hash: 6024dc948d6ceafccd594d6d73e10127
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SetVolume
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main_Scene.unity
