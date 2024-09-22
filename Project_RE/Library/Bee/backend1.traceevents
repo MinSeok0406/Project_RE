@@ -1,197 +1,316 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1726895521365330, "dur":1612, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726895521366957, "dur":110, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726895521367101, "dur":412, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726895521367751, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":0, "ts":1726895521369169, "dur":107, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":0, "ts":1726895521367549, "dur":2528, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726895521370079, "dur":111900, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726895521481980, "dur":218, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726895521482305, "dur":1386, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1726895521367705, "dur":2392, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1726895521370098, "dur":1901, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1726895521371999, "dur":2956, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1726895521374965, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1726895521375109, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1726895521375241, "dur":102, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1726895521375427, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1726895521375533, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1726895521375627, "dur":268, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\PROJECT_01\\Project_RE\\Project_RE\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1726895521375626, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1726895521375896, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1726895521376086, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1726895521376239, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1726895521383145, "dur":4359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1726895521387557, "dur":94434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726895521367701, "dur":2390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726895521370094, "dur":1846, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726895521371940, "dur":3069, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726895521375009, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1726895521375115, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726895521375311, "dur":173, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1726895521375535, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726895521375633, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726895521375771, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726895521375864, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726895521375924, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726895521376075, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726895521376141, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726895521376257, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726895521390793, "dur":741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/level0" }}
-,{ "pid":12345, "tid":2, "ts":1726895521391563, "dur":90434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1726895521367696, "dur":2390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1726895521370087, "dur":4866, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1726895521374971, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1726895521375057, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1726895521375253, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1726895521375555, "dur":176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\PROJECT_01\\Project_RE\\Project_RE\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1726895521375733, "dur":248, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\PROJECT_01\\Project_RE\\Project_RE\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":3, "ts":1726895521375984, "dur":417, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\PROJECT_01\\Project_RE\\Project_RE\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1726895521375056, "dur":1421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1726895521377008, "dur":101554, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1726895521481109, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1726895521481108, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1726895521481228, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1726895521367726, "dur":2374, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726895521370102, "dur":1903, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726895521372006, "dur":3000, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726895521375006, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1726895521375134, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726895521375255, "dur":121, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1726895521375382, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":4, "ts":1726895521375376, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE.exe" }}
-,{ "pid":12345, "tid":4, "ts":1726895521375509, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726895521375644, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726895521375757, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726895521375824, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726895521375919, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726895521375997, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726895521376080, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726895521376170, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726895521377100, "dur":2122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":4, "ts":1726895521379254, "dur":102726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1726895521367751, "dur":2355, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1726895521370108, "dur":1821, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1726895521371930, "dur":3032, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1726895521374972, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\ \\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":5, "ts":1726895521374963, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1726895521375086, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1726895521375298, "dur":117, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1726895521375425, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1726895521375599, "dur":743, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\PROJECT_01\\Project_RE\\Project_RE\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726895521375598, "dur":744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726895521376403, "dur":105583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726895521367772, "dur":2338, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726895521370112, "dur":1946, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726895521372059, "dur":2937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726895521375004, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\ \\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1726895521374996, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1726895521375101, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726895521375249, "dur":109, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1726895521375487, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726895521375567, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726895521375629, "dur":186, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\PROJECT_01\\Project_RE\\Project_RE\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726895521375629, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726895521375816, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726895521375892, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726895521375957, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726895521376030, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726895521376097, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726895521376963, "dur":2041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":6, "ts":1726895521379041, "dur":102936, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726895521367789, "dur":2343, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726895521370140, "dur":1969, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726895521372110, "dur":2850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726895521374963, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1726895521375094, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726895521375240, "dur":95, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1726895521375336, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1726895521375463, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726895521375522, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726895521375601, "dur":341, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\PROJECT_01\\Project_RE\\Project_RE\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726895521375600, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726895521375943, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726895521376000, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726895521376078, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726895521384047, "dur":4110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/level0.resS" }}
-,{ "pid":12345, "tid":7, "ts":1726895521388193, "dur":93782, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726895521367809, "dur":2362, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726895521370172, "dur":1882, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726895521372054, "dur":2967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726895521375028, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\ \\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":8, "ts":1726895521375021, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1726895521375130, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726895521375253, "dur":113, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1726895521375500, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726895521375588, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726895521375702, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726895521375762, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726895521375838, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726895521375903, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726895521375982, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726895521376046, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726895521376245, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726895521406081, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":8, "ts":1726895521406916, "dur":75068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726895521367826, "dur":2354, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726895521370184, "dur":531, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726895521370716, "dur":4240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726895521375011, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726895521375106, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":9, "ts":1726895521375279, "dur":126, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":9, "ts":1726895521375519, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726895521375593, "dur":556, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\PROJECT_01\\Project_RE\\Project_RE\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":9, "ts":1726895521375592, "dur":558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":9, "ts":1726895521376190, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726895521406447, "dur":674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":9, "ts":1726895521407142, "dur":74860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726895521367859, "dur":2327, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726895521370186, "dur":4773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726895521374959, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":10, "ts":1726895521375024, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726895521375142, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":10, "ts":1726895521375307, "dur":131, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":10, "ts":1726895521375505, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726895521375579, "dur":169, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\PROJECT_01\\Project_RE\\Project_RE\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":10, "ts":1726895521375578, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":10, "ts":1726895521375749, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726895521375825, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726895521375929, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726895521375997, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726895521376069, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726895521377419, "dur":3520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/resources.resource" }}
-,{ "pid":12345, "tid":10, "ts":1726895521380969, "dur":101025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726895521367873, "dur":2319, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726895521370192, "dur":4774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726895521375013, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726895521375124, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\ \\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1726895521375117, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1726895521375273, "dur":122, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1726895521375497, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726895521375571, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726895521375659, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726895521375768, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726895521375860, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726895521375953, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726895521376023, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726895521376102, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726895521400213, "dur":2050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1726895521402290, "dur":79699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1726895521367904, "dur":2294, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1726895521370198, "dur":4760, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1726895521374971, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\ \\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":12, "ts":1726895521374959, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":12, "ts":1726895521375056, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1726895521375153, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1726895521375281, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1726895521375353, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1726895521375404, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1726895521375510, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1726895521375575, "dur":508, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\PROJECT_01\\Project_RE\\Project_RE\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726895521375574, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726895521376084, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1726895521376183, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1726895521383555, "dur":16934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/resources.assets" }}
-,{ "pid":12345, "tid":12, "ts":1726895521400515, "dur":81467, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726895521485923, "dur":620, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1726977960902907, "dur":1607, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726977960904524, "dur":87, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726977960904653, "dur":341, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726977960906601, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726977960905026, "dur":2326, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726977960907354, "dur":121538, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726977961028894, "dur":203, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726977961029192, "dur":1524, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1726977960905126, "dur":2236, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726977960907364, "dur":4044, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726977960911480, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1726977960911776, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\PROJECT_01\\Project_RE\\Project_RE\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960911855, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\PROJECT_01\\Project_RE\\Project_RE\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960911955, "dur":175, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\PROJECT_01\\Project_RE\\Project_RE\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960912131, "dur":244, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\PROJECT_01\\Project_RE\\Project_RE\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960912376, "dur":443, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\PROJECT_01\\Project_RE\\Project_RE\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960912820, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\PROJECT_01\\Project_RE\\Project_RE\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960912954, "dur":355, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\PROJECT_01\\Project_RE\\Project_RE\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960911479, "dur":1967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1726977960913564, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1726977960915064, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1726977960917306, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1726977960919147, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":1, "ts":1726977960919146, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE.exe" }}
+,{ "pid":12345, "tid":1, "ts":1726977960919265, "dur":1677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE.exe" }}
+,{ "pid":12345, "tid":1, "ts":1726977960920983, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960921172, "dur":5595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960926830, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726977960926930, "dur":2412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960929403, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726977960929575, "dur":2613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960932225, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726977960932438, "dur":3222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960935714, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726977960935792, "dur":3657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960939491, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726977960939595, "dur":3905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960943538, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726977960943612, "dur":5114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960948769, "dur":396, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726977960949198, "dur":4348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960953654, "dur":3011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960956963, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726977960957035, "dur":3500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960960620, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726977960960749, "dur":6610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726977960967494, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726977960967759, "dur":21320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1726977960989125, "dur":39811, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726977960905156, "dur":2218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726977960907377, "dur":1093, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726977960908470, "dur":2977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726977960911450, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1726977960911566, "dur":56, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726977960919754, "dur":4290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1726977960924191, "dur":2988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726977960927219, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726977960927406, "dur":3644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726977960931122, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726977960931389, "dur":2584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726977960934151, "dur":3280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726977960937480, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726977960937569, "dur":3177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726977960940828, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726977960941048, "dur":4180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726977960945348, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726977960945549, "dur":9215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726977960955072, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\ \\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726977960955070, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726977960955186, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726977960955368, "dur":12972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726977960968390, "dur":60498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726977960905149, "dur":2218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726977960907370, "dur":1066, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726977960908437, "dur":3073, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726977960911517, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\ \\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1726977960911511, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1726977960938436, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1726977960940302, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726977960940402, "dur":6569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726977960947034, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726977960947171, "dur":3940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726977960951376, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726977960951461, "dur":3192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726977960954705, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726977960954797, "dur":2789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726977960957657, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726977960957764, "dur":3013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726977960960924, "dur":56022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726977961016978, "dur":11916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726977960905179, "dur":2202, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726977960907383, "dur":1178, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726977960908561, "dur":2875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726977960911438, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1726977960913047, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1726977960915547, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726977960916196, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1726977960917274, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726977960917511, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1726977960919691, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726977960920055, "dur":3992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726977960924136, "dur":54, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726977960924204, "dur":3346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726977960927603, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726977960927780, "dur":3325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726977960931181, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726977960931383, "dur":3201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726977960934636, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726977960934708, "dur":3328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726977960938082, "dur":392, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726977960938529, "dur":3405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726977960941994, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726977960942179, "dur":4008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726977960946246, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726977960946448, "dur":8734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726977960955274, "dur":3025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726977960958392, "dur":2301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726977960960747, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726977960960813, "dur":7431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726977960968314, "dur":60576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726977960905199, "dur":2187, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726977960907388, "dur":1064, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726977960908453, "dur":3047, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726977960911504, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1726977960939412, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1726977960940750, "dur":5891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726977960946688, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726977960946756, "dur":3971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726977960950786, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726977960950924, "dur":2436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726977960953551, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726977960953624, "dur":2644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726977960956309, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726977960956432, "dur":3242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726977960959723, "dur":433, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726977960960174, "dur":5200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726977960965542, "dur":63270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1726977960905221, "dur":2172, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726977960907395, "dur":1109, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726977960908505, "dur":2937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726977960911444, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1726977960911496, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726977960919516, "dur":4516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1726977960924152, "dur":3108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726977960927615, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726977960927775, "dur":3417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726977960931239, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726977960931381, "dur":2738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726977960934183, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726977960934479, "dur":3143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726977960937665, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726977960937918, "dur":3462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726977960941508, "dur":3137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726977960944687, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726977960944888, "dur":4081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726977960949006, "dur":666, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726977960949697, "dur":5997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726977960955812, "dur":10034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726977960965937, "dur":1023, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726977960966976, "dur":96, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726977960967080, "dur":13178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1726977960980279, "dur":48635, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726977960905244, "dur":2236, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726977960907487, "dur":1123, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726977960908611, "dur":2806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726977960911419, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1726977960913401, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1726977960915159, "dur":1925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1726977960917489, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1726977960926237, "dur":161, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726977960919910, "dur":6545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1726977960926530, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726977960926630, "dur":2783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726977960929468, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726977960929581, "dur":3060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726977960932680, "dur":440, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726977960933148, "dur":2774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726977960935957, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726977960936146, "dur":3118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726977960939309, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726977960939560, "dur":3445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726977960943058, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726977960943187, "dur":5714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726977960948964, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726977960949178, "dur":4333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726977960953564, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726977960953665, "dur":5275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726977960958996, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726977960959131, "dur":8169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726977960967365, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726977960967432, "dur":13760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1726977960981216, "dur":47691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726977960905260, "dur":2241, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726977960907503, "dur":1116, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726977960908619, "dur":2794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726977960911438, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\ \\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1726977960911415, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1726977960911550, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726977960920485, "dur":4456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1726977960924992, "dur":880, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726977960925971, "dur":3355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726977960929426, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726977960929619, "dur":4423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726977960934142, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726977960934476, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726977960937777, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726977960937920, "dur":3523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726977960941488, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726977960941772, "dur":4770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726977960946580, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726977960946646, "dur":4384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726977960951091, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726977960951192, "dur":4327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726977960955570, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726977960955725, "dur":3346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726977960959188, "dur":5313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726977960964836, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726977960965111, "dur":5238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1726977960970383, "dur":58544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726977960905282, "dur":2248, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726977960907533, "dur":499, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726977960908032, "dur":3378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726977960911478, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726977960912497, "dur":2280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/app.info" }}
+,{ "pid":12345, "tid":9, "ts":1726977960915079, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1726977960916944, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\ \\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":9, "ts":1726977960916942, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1726977960917246, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1726977960919059, "dur":12327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726977960931581, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726977960931806, "dur":3849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726977960935710, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726977960935795, "dur":5067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726977960940906, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726977960941108, "dur":6173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726977960947324, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726977960947441, "dur":4360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726977960951840, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726977960951987, "dur":3038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726977960955069, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726977960964493, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726977960955297, "dur":9340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1726977960964785, "dur":3110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1726977960968044, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1726977960968225, "dur":16004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1726977960984256, "dur":44648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726977960905302, "dur":2234, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726977960907536, "dur":3909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726977960911454, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\ \\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1726977960911446, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1726977960911537, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726977960938052, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1726977960939692, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726977960939924, "dur":3243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726977960943212, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726977960943351, "dur":5225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726977960948693, "dur":4241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726977960953087, "dur":2187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726977960955318, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726977960955393, "dur":2333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726977960957776, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1726977960957915, "dur":3045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1726977960961038, "dur":3761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1726977960964932, "dur":17979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1726977960982933, "dur":45977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726977960905320, "dur":2221, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726977960907541, "dur":3903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726977960911445, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1726977960911518, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726977960930849, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1726977960932250, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726977960932441, "dur":2878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726977960935415, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726977960935494, "dur":3683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726977960939238, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726977960939319, "dur":2961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726977960942341, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726977960942436, "dur":5199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726977960947748, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1726977960947995, "dur":6813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726977960954917, "dur":2748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726977960957756, "dur":7039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1726977960964891, "dur":30730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/resources.resource" }}
+,{ "pid":12345, "tid":11, "ts":1726977960995657, "dur":33241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726977960905335, "dur":2211, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726977960907547, "dur":3864, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726977960911439, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\MyDreamComputer\\OneDrive\\ \\ \\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1726977960911414, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1726977960912841, "dur":4364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1726977960917281, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726977960917730, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1726977960919008, "dur":2812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726977960921902, "dur":862, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726977960922797, "dur":4301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726977960927138, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726977960927269, "dur":2406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726977960929715, "dur":865, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726977960930607, "dur":2775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726977960933440, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726977960933581, "dur":3422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726977960937058, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726977960937232, "dur":3937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726977960941277, "dur":3502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726977960944825, "dur":846, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726977960945689, "dur":3999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726977960949813, "dur":4124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726977960954001, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726977960954284, "dur":2571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726977960956921, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1726977960957034, "dur":6292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1726977960963578, "dur":4525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1726977960968282, "dur":10964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MyDreamComputer/OneDrive/ /PROJECT_01/Project_RE/Bulid/Project_RE_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1726977960979273, "dur":49645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726977961033038, "dur":1292, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
